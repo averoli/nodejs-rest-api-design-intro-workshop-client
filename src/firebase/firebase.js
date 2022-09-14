@@ -4,12 +4,13 @@ import "firebase/auth";
 if (!firebase.apps.length) {
   // Paste your config object here ⬇️
   const firebaseConfig = {
-    apiKey: "AIzaSyBpjUjFAt7RZAVFda1OBJCHRYssLzdlJYY",
-    authDomain: "nodejs-firebase-app-408c6.firebaseapp.com",
-    projectId: "nodejs-firebase-app-408c6",
-    storageBucket: "nodejs-firebase-app-408c6.appspot.com",
-    messagingSenderId: "370587034017",
-    appId: "1:370587034017:web:aabc0671314c2d40d0abe0",
+    apiKey: "AIzaSyC5d_tTlp_U3L5rxSFM3YHr3kYlQ15ytx0",
+    authDomain: "chat-3e38f.firebaseapp.com",
+    projectId: "chat-3e38f",
+    storageBucket: "chat-3e38f.appspot.com",
+    messagingSenderId: "842845287571",
+    appId: "1:842845287571:web:e8418c1725861722d98966",
+    measurementId: "G-G5S59WJK0B",
   };
 
   firebase.initializeApp(firebaseConfig);
