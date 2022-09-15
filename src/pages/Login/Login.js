@@ -27,7 +27,7 @@ function Login() {
 
     try {
       await singInWithGoogle();
-      await syncUserData();
+      // await syncUserData();
     } catch (error) {
       setLoginError(error.message);
     } finally {
